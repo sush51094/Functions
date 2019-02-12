@@ -112,3 +112,20 @@ func display(n:Int) -> Int
 
 display(n:5)
 
+func sum(n:Int) -> Int
+{
+    if n == 0
+    {
+        return 0
+    }
+    else{
+        return n + sum(n:n-1)
+    
+}
+
+}
+
+let s0 = sum(n:5)
+print("Sum Rec:\(s0)")
+
+

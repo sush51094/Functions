@@ -64,12 +64,12 @@ print(x,y)
 
 print(x,y)
 
-func si(amount:Float,rate:Float,noOfYear:Float) -> Float
+func si(amount:Float=1000,rate:Float,noOfYear:Float=2) -> Float
 
 {
     return(amount * rate * noOfYear) / 100.0
 }
 
 print(si(amount:1000,rate:2.5,noOfYear:10))
-
-
+print(si(amount:1000,rate:2.5))
+print(si(rate:2.0))

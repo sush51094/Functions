@@ -128,4 +128,36 @@ func sum(n:Int) -> Int
 let s0 = sum(n:5)
 print("Sum Rec:\(s0)")
 
+func power(n:Int) -> Int
+{
+    if n == 0
+    {
+        return 1
+    }
+    else{
+        return 2 * power(n:n-1)
+    }
+}
+
+print("Power: \(power(n:2))")
+
+func binarytodecimal(n:Int) ->Int
+
+{
+    var dec = 0
+    var num = 0
+    var cnt = 0
+     while num != 0
+    
+     {
+        if(num % 10 == 1)
+{
+    
+    dec = dec + power(n:cnt)
+}
+num = Int(num/10)
+cnt *= 2
+
+    print("0-Decimal :\(binarytodecimal(n:111))")
+}
 

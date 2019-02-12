@@ -73,3 +73,29 @@ func si(amount:Float=1000,rate:Float,noOfYear:Float=2) -> Float
 print(si(amount:1000,rate:2.5,noOfYear:10))
 print(si(amount:1000,rate:2.5))
 print(si(rate:2.0))
+
+func multiplication(a:Int,b:Int)
+{
+    let c = a*b;
+    print("Mul:\(c)")
+}
+multiplication(a:5,b:2)
+
+func reverse(n:Int) -> Int
+{
+    var number = n
+    var reverse = 0
+
+    while number != 0
+        
+    {
+
+reverse = (reverse * 10) + (number % 10)
+number = Int(number/10)
+        
+}
+return reverse
+
+}
+
+print(reverse(n:12345))

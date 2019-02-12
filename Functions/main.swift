@@ -99,3 +99,16 @@ return reverse
 }
 
 print(reverse(n:12345))
+
+func display(n:Int) -> Int
+{
+    if n==0
+    {
+        return 0
+    }
+    print(n)
+       return  display(n:n-1)
+    }
+
+display(n:5)
+
